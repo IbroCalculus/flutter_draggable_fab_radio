@@ -17,10 +17,10 @@ class MainPage extends StatelessWidget {
               Widget page;
               switch (settings.name) {
                 case '/second':
-                  page = SecondPage();
+                  page = const SecondPage();
                   break;
                 default:
-                  page = HomePage();
+                  page = const HomePage();
               }
               return MaterialPageRoute(builder: (_) => page);
             },

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'custom_widgets/draggable_fab.dart';
-import 'custom_widgets/webview_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -91,7 +90,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Home Page')),
-      body: Center(
+      body: const Center(
         child: Text('This is the Home Page'),
         // child: WebViewWidget(),
       ),

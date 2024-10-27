@@ -58,7 +58,7 @@ class _DraggableFloatingButtonState extends State<DraggableFloatingButton> {
                   height: 100,  // Fixed height for the modal
                   padding: const EdgeInsets.all(8.0),
                   // child: const Center(child: Text("Hello from Modal")),
-                  child: WebViewWidget(),
+                  child: const MyWebView(),
                 ),
               ),
             ),
